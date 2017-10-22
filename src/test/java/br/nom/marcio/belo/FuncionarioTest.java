@@ -47,6 +47,6 @@ public class FuncionarioTest
     public void testVoluntario()
     {
         Funcionario funcionario = new Voluntario("Leo", new BigDecimal("1000000"));
-        assertEquals( new BigDecimal("0.00"), funcionario.getSalarioAnual());
+        assertEquals( new BigDecimal("1000000"), funcionario.getSalarioAnual());
     }
 }
